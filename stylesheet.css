@@ -1,0 +1,41 @@
+body {
+    background-color: #a35254;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #d4a7a8;
+}
+
+button {
+    border-radius: 6px;
+    background: transparent;
+    border: 2px solid #d4a7a8;
+    text-align: center;
+    color: #d4a7a8;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: #d4a7a8;
+    border: 2px solid #a35254;
+    color: #a35254;
+}
+
+button:disabled {
+    background-color: #9c8c8c;
+    color: #6e6060;
+    border: 2px solid #6e6060;
+}
+
+#container {
+    display: grid;
+    grid-template-rows: 125px 50px 100px 60px;
+    place-items: center;
+    width: 100%;
+}
+
+#link {
+    text-align: center;
+}
+
+.yuge {
+    font-size: 60px;
+}

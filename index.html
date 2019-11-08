@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>POMODORO GO</title>
+      <script src="./main.js" type="text/javascript" defer></script>
+
+      <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <link rel="stylesheet" href="./stylesheet.css" type="text/css">
+  </head>
+  <body>
+
+      <div id="container">
+
+          <h1>Pomodoro WIN!</h1>
+
+          <div>
+
+              <div id="currentState">
+                  <h2>Ready?</h2>
+              </div>
+
+          </div>
+
+          <div>
+
+              <div id="timeDisplay">
+                  <p class="yuge">25:00</p>
+              </div>
+
+          </div>
+
+          <div>
+
+              <div id="control">
+                  <button id="goTimeButton" onclick="goTime()">Pomodoro GO!</button>
+                  <button id="stopTimeButton" onclick="stopTime()" disabled>Pomodoro RESET!</button>
+              </div>
+
+              <div id="link">
+                  <p>code available on github</p>
+              </div>
+
+          </div>
+
+      </div>
+
+  </body>
+</html>
