@@ -25,6 +25,8 @@ button:disabled {
     border: 2px solid #6e6060;
 }
 
+a { color: inherit; }
+
 #container {
     display: grid;
     grid-template-rows: 125px 50px 100px 60px;
